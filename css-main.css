@@ -10,7 +10,7 @@
 body {
     margin: 0;
     background-color: #1f2833;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
 }
 
 nav {
@@ -115,4 +115,21 @@ a:hover {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     text-decoration: none;
+}
+
+.et { /*employment title*/
+    color: #66fcf1;
+}
+
+.ed { /*employment details*/
+    color: #45a29e;
+}
+
+.et { /*employment text*/
+    padding-bottom: 10px;
+    color: #c5c6c7;
+}
+
+.hrend {
+    margin-bottom: 50px;
 }
