@@ -6,7 +6,7 @@
 }
 
 .websiteversion:after {
-    content: "v0.2";
+    content: "pre-release v0.2";
     position: fixed;
     bottom: 0;
     right: 0;
