@@ -5,11 +5,20 @@
     color: lightgreen;
 }
 
+.websiteversion:after {
+    content: "v0.2";
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+}
+
 /* general styles */
 
 body {
     margin: 0;
     background-color: #1f2833;
+    color:white;
     font-family: monospace;
 }
 
@@ -38,7 +47,7 @@ nav a {
     color: #66fcf1;
     display: inline-block;
     padding: 5px;
-    font-size: 0.9em;
+    font-size: 1em;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     text-decoration: none;
@@ -84,6 +93,24 @@ a:hover {
 
 /* classes */
 
+.fullscreendiv {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.indexbutton {
+    background: #0b0c10;
+    color: white;
+}
+
+.indexbutton:hover {
+    background: #0b0c10;
+    color: #66fcf1;
+}
+
 .pg-title {
     color: #66fcf1;
     font-size: 3em;
@@ -97,7 +124,6 @@ a:hover {
 }
 
 .text-body {
-    color: #c5c6c7;
     margin-right: 10%;
 }
 
@@ -111,7 +137,7 @@ a:hover {
     color: #45a29e;
     display: inline-block;
     padding: 5px;
-    font-size: 0.9em;
+    font-size: 1em;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     text-decoration: none;
