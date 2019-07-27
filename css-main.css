@@ -1,12 +1,12 @@
 /* Configurable*/
 
 .status:after {                 /* employment status */
-    content: "Employed: Looking for work";
+    content: "Employed: Looking for a new job";
     color: lightgreen;
 }
 
 .websiteversion:after {
-    content: "pre-release v0.2";
+    content: "pre-release v0.3";
     position: fixed;
     bottom: 0;
     right: 0;
@@ -14,6 +14,22 @@
 }
 
 /* general styles */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background:rgb(82, 82, 82);  
+}
+
+::-webkit-scrollbar-thumb {
+    background: #45a29e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #66fcf1;
+}
 
 body {
     margin: 0;
@@ -76,6 +92,18 @@ footer {
     left: 0;
     width: 100%;
     padding: 5px;
+}
+
+footer a {
+    color: lightgray;
+}
+
+footer a:visited {
+    color: lightgray;
+}
+
+footer a:hover {
+    color: white;
 }
 
 a {
