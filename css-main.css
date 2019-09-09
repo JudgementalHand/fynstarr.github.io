@@ -1,7 +1,7 @@
 /* Configurable*/
 
 .status:after {                 /* employment status */
-    content: "Employed: Looking for a new job";
+    content: "Employed: Linguist Coordinator";
     color: lightgreen;
 }
 
